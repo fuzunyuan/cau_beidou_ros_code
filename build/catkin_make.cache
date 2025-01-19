@@ -1,0 +1,2 @@
+locate:mqtt
+-DCATKIN_DEVEL_PREFIX=/workspace_beidou/devel -DCMAKE_INSTALL_PREFIX=/workspace_beidou/install -G Unix Makefiles

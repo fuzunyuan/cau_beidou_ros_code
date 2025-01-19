@@ -1,0 +1,12 @@
+int32 GPSWeek
+float64 GPSTime
+float64 Heading_Angle
+float64 Latitude
+float64 Longitude
+float64 Altitude
+float64 Speed
+int32 Status
+int32 Satellite_num
+string Warning
+float64 UTM_x
+float64 UTM_y
