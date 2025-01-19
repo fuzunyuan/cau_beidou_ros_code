@@ -67,14 +67,14 @@ set(locate_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(locate_SOURCE_PREFIX /workspace_beidou/src/locate)
-  set(locate_DEVEL_PREFIX /workspace_beidou/devel)
+  set(locate_SOURCE_PREFIX /home/fzy/cau_beidou_ros_code/src/locate)
+  set(locate_DEVEL_PREFIX /home/fzy/cau_beidou_ros_code/devel)
   set(locate_INSTALL_PREFIX "")
   set(locate_PREFIX ${locate_DEVEL_PREFIX})
 else()
   set(locate_SOURCE_PREFIX "")
   set(locate_DEVEL_PREFIX "")
-  set(locate_INSTALL_PREFIX /workspace_beidou/install)
+  set(locate_INSTALL_PREFIX /home/fzy/cau_beidou_ros_code/install)
   set(locate_PREFIX ${locate_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /workspace_beidou/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/fzy/cau_beidou_ros_code/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

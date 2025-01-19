@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace_beidou/src
+CMAKE_SOURCE_DIR = /home/fzy/cau_beidou_ros_code/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace_beidou/build
+CMAKE_BINARY_DIR = /home/fzy/cau_beidou_ros_code/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /workspace_beidou/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace_beidou/src /workspace_beidou/src /workspace_beidou/build /workspace_beidou/build /workspace_beidou/build/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fzy/cau_beidou_ros_code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fzy/cau_beidou_ros_code/src /home/fzy/cau_beidou_ros_code/src /home/fzy/cau_beidou_ros_code/build /home/fzy/cau_beidou_ros_code/build /home/fzy/cau_beidou_ros_code/build/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

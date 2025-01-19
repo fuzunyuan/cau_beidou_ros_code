@@ -166,12 +166,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "locate/cmake/locate-genmsg.cmake"
   "mqtt/catkin_generated/ordered_paths.cmake"
   "mqtt/catkin_generated/package.cmake"
-  "/workspace_beidou/devel/share/locate/cmake/locate-msg-paths.cmake"
-  "/workspace_beidou/src/CMakeLists.txt"
-  "/workspace_beidou/src/locate/CMakeLists.txt"
-  "/workspace_beidou/src/locate/package.xml"
-  "/workspace_beidou/src/mqtt/CMakeLists.txt"
-  "/workspace_beidou/src/mqtt/package.xml"
+  "/home/fzy/cau_beidou_ros_code/devel/share/locate/cmake/locate-msg-paths.cmake"
+  "/home/fzy/cau_beidou_ros_code/src/CMakeLists.txt"
+  "/home/fzy/cau_beidou_ros_code/src/locate/CMakeLists.txt"
+  "/home/fzy/cau_beidou_ros_code/src/locate/package.xml"
+  "/home/fzy/cau_beidou_ros_code/src/mqtt/CMakeLists.txt"
+  "/home/fzy/cau_beidou_ros_code/src/mqtt/package.xml"
   )
 
 # The corresponding makefile is:

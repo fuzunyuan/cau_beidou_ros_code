@@ -686,7 +686,7 @@ vector
 time.h
 -
 
-/workspace_beidou/src/mqtt/src/mqtt-app.cpp
+/home/fzy/cau_beidou_ros_code/src/mqtt/src/mqtt-app.cpp
 ros/ros.h
 -
 std_msgs/String.h

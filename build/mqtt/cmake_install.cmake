@@ -1,8 +1,8 @@
-# Install script for directory: /workspace_beidou/src/mqtt
+# Install script for directory: /home/fzy/cau_beidou_ros_code/src/mqtt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace_beidou/install")
+  set(CMAKE_INSTALL_PREFIX "/home/fzy/cau_beidou_ros_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace_beidou/build/mqtt/catkin_generated/installspace/mqtt.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fzy/cau_beidou_ros_code/build/mqtt/catkin_generated/installspace/mqtt.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mqtt/cmake" TYPE FILE FILES
-    "/workspace_beidou/build/mqtt/catkin_generated/installspace/mqttConfig.cmake"
-    "/workspace_beidou/build/mqtt/catkin_generated/installspace/mqttConfig-version.cmake"
+    "/home/fzy/cau_beidou_ros_code/build/mqtt/catkin_generated/installspace/mqttConfig.cmake"
+    "/home/fzy/cau_beidou_ros_code/build/mqtt/catkin_generated/installspace/mqttConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mqtt" TYPE FILE FILES "/workspace_beidou/src/mqtt/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mqtt" TYPE FILE FILES "/home/fzy/cau_beidou_ros_code/src/mqtt/package.xml")
 endif()
 

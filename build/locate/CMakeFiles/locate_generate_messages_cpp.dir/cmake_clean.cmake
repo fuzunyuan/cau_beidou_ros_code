@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/workspace_beidou/devel/include/locate/navigate_and_imu_data.h"
+  "/home/fzy/cau_beidou_ros_code/devel/include/locate/navigate_and_imu_data.h"
   "CMakeFiles/locate_generate_messages_cpp"
 )
 

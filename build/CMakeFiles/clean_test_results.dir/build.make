@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace_beidou/src
+CMAKE_SOURCE_DIR = /home/fzy/cau_beidou_ros_code/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace_beidou/build
+CMAKE_BINARY_DIR = /home/fzy/cau_beidou_ros_code/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /workspace_beidou/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /workspace_beidou/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/fzy/cau_beidou_ros_code/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /workspace_beidou/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace_beidou/src /workspace_beidou/src /workspace_beidou/build /workspace_beidou/build /workspace_beidou/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fzy/cau_beidou_ros_code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fzy/cau_beidou_ros_code/src /home/fzy/cau_beidou_ros_code/src /home/fzy/cau_beidou_ros_code/build /home/fzy/cau_beidou_ros_code/build /home/fzy/cau_beidou_ros_code/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

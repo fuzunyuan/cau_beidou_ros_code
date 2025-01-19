@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspace_beidou/src/locate/src/navigate_data_reader/navigate_data_reader.cpp" "/workspace_beidou/build/locate/CMakeFiles/navigate_data_reader.dir/src/navigate_data_reader/navigate_data_reader.cpp.o"
-  "/workspace_beidou/src/locate/src/utils/ll2xy.cpp" "/workspace_beidou/build/locate/CMakeFiles/navigate_data_reader.dir/src/utils/ll2xy.cpp.o"
+  "/home/fzy/cau_beidou_ros_code/src/locate/src/navigate_data_reader/navigate_data_reader.cpp" "/home/fzy/cau_beidou_ros_code/build/locate/CMakeFiles/navigate_data_reader.dir/src/navigate_data_reader/navigate_data_reader.cpp.o"
+  "/home/fzy/cau_beidou_ros_code/src/locate/src/utils/ll2xy.cpp" "/home/fzy/cau_beidou_ros_code/build/locate/CMakeFiles/navigate_data_reader.dir/src/utils/ll2xy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,10 +19,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/workspace_beidou/devel/include"
+  "/home/fzy/cau_beidou_ros_code/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/workspace_beidou/src/locate/include"
+  "/home/fzy/cau_beidou_ros_code/src/locate/include"
   )
 
 # Targets to which this target links.

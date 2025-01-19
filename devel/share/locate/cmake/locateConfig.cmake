@@ -67,14 +67,14 @@ set(locate_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(locate_SOURCE_PREFIX /workspace_beidou/src/locate)
-  set(locate_DEVEL_PREFIX /workspace_beidou/devel)
+  set(locate_SOURCE_PREFIX /home/fzy/cau_beidou_ros_code/src/locate)
+  set(locate_DEVEL_PREFIX /home/fzy/cau_beidou_ros_code/devel)
   set(locate_INSTALL_PREFIX "")
   set(locate_PREFIX ${locate_DEVEL_PREFIX})
 else()
   set(locate_SOURCE_PREFIX "")
   set(locate_DEVEL_PREFIX "")
-  set(locate_INSTALL_PREFIX /workspace_beidou/install)
+  set(locate_INSTALL_PREFIX /home/fzy/cau_beidou_ros_code/install)
   set(locate_PREFIX ${locate_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(locate_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/workspace_beidou/devel/include;/workspace_beidou/src/locate/include " STREQUAL " ")
+if(NOT "/home/fzy/cau_beidou_ros_code/devel/include;/home/fzy/cau_beidou_ros_code/src/locate/include " STREQUAL " ")
   set(locate_INCLUDE_DIRS "")
-  set(_include_dirs "/workspace_beidou/devel/include;/workspace_beidou/src/locate/include")
+  set(_include_dirs "/home/fzy/cau_beidou_ros_code/devel/include;/home/fzy/cau_beidou_ros_code/src/locate/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/workspace_beidou/devel/include;/workspace_beidou/src/locate/include " S
         message(FATAL_ERROR "Project 'locate' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'locate' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/workspace_beidou/src/locate/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'locate' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/fzy/cau_beidou_ros_code/src/locate/${idir}'.  ${_report}")
     endif()
     _list_append_unique(locate_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /workspace_beidou/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/fzy/cau_beidou_ros_code/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

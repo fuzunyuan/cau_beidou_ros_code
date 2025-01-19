@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace_beidou/install")
+  set(CMAKE_INSTALL_PREFIX "/home/fzy/cau_beidou_ros_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/workspace_beidou/build/gtest/googletest/cmake_install.cmake")
+  include("/home/fzy/cau_beidou_ros_code/build/gtest/googletest/cmake_install.cmake")
 
 endif()
 

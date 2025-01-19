@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/workspace_beidou/devel/share/gennodejs/ros/locate/msg/navigate_and_imu_data.js"
+  "/home/fzy/cau_beidou_ros_code/devel/share/gennodejs/ros/locate/msg/navigate_and_imu_data.js"
   "CMakeFiles/locate_generate_messages_nodejs"
 )
 

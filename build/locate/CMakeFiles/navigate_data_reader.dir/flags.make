@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"Project\" -Dnavigate_data_reader_EXPORTS
 
-CXX_INCLUDES = -I/workspace_beidou/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/workspace_beidou/src/locate/include 
+CXX_INCLUDES = -I/home/fzy/cau_beidou_ros_code/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/fzy/cau_beidou_ros_code/src/locate/include 
 

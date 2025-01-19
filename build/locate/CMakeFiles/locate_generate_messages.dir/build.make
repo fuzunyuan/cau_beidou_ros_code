@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace_beidou/src
+CMAKE_SOURCE_DIR = /home/fzy/cau_beidou_ros_code/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace_beidou/build
+CMAKE_BINARY_DIR = /home/fzy/cau_beidou_ros_code/build
 
 # Utility rule file for locate_generate_messages.
 
@@ -63,10 +63,10 @@ locate/CMakeFiles/locate_generate_messages.dir/build: locate_generate_messages
 .PHONY : locate/CMakeFiles/locate_generate_messages.dir/build
 
 locate/CMakeFiles/locate_generate_messages.dir/clean:
-	cd /workspace_beidou/build/locate && $(CMAKE_COMMAND) -P CMakeFiles/locate_generate_messages.dir/cmake_clean.cmake
+	cd /home/fzy/cau_beidou_ros_code/build/locate && $(CMAKE_COMMAND) -P CMakeFiles/locate_generate_messages.dir/cmake_clean.cmake
 .PHONY : locate/CMakeFiles/locate_generate_messages.dir/clean
 
 locate/CMakeFiles/locate_generate_messages.dir/depend:
-	cd /workspace_beidou/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace_beidou/src /workspace_beidou/src/locate /workspace_beidou/build /workspace_beidou/build/locate /workspace_beidou/build/locate/CMakeFiles/locate_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fzy/cau_beidou_ros_code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fzy/cau_beidou_ros_code/src /home/fzy/cau_beidou_ros_code/src/locate /home/fzy/cau_beidou_ros_code/build /home/fzy/cau_beidou_ros_code/build/locate /home/fzy/cau_beidou_ros_code/build/locate/CMakeFiles/locate_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : locate/CMakeFiles/locate_generate_messages.dir/depend
 

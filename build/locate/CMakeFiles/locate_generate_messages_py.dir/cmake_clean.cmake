@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/workspace_beidou/devel/lib/python3/dist-packages/locate/msg/__init__.py"
-  "/workspace_beidou/devel/lib/python3/dist-packages/locate/msg/_navigate_and_imu_data.py"
+  "/home/fzy/cau_beidou_ros_code/devel/lib/python3/dist-packages/locate/msg/__init__.py"
+  "/home/fzy/cau_beidou_ros_code/devel/lib/python3/dist-packages/locate/msg/_navigate_and_imu_data.py"
   "CMakeFiles/locate_generate_messages_py"
 )
 

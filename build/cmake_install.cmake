@@ -1,8 +1,8 @@
-# Install script for directory: /workspace_beidou/src
+# Install script for directory: /home/fzy/cau_beidou_ros_code/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace_beidou/install")
+  set(CMAKE_INSTALL_PREFIX "/home/fzy/cau_beidou_ros_code/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,90 +49,90 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace_beidou/install/_setup_util.py")
+   "/home/fzy/cau_beidou_ros_code/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace_beidou/install" TYPE PROGRAM FILES "/workspace_beidou/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/fzy/cau_beidou_ros_code/install" TYPE PROGRAM FILES "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace_beidou/install/env.sh")
+   "/home/fzy/cau_beidou_ros_code/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace_beidou/install" TYPE PROGRAM FILES "/workspace_beidou/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/fzy/cau_beidou_ros_code/install" TYPE PROGRAM FILES "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace_beidou/install/setup.bash;/workspace_beidou/install/local_setup.bash")
+   "/home/fzy/cau_beidou_ros_code/install/setup.bash;/home/fzy/cau_beidou_ros_code/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace_beidou/install" TYPE FILE FILES
-    "/workspace_beidou/build/catkin_generated/installspace/setup.bash"
-    "/workspace_beidou/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/fzy/cau_beidou_ros_code/install" TYPE FILE FILES
+    "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/setup.bash"
+    "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace_beidou/install/setup.sh;/workspace_beidou/install/local_setup.sh")
+   "/home/fzy/cau_beidou_ros_code/install/setup.sh;/home/fzy/cau_beidou_ros_code/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace_beidou/install" TYPE FILE FILES
-    "/workspace_beidou/build/catkin_generated/installspace/setup.sh"
-    "/workspace_beidou/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/fzy/cau_beidou_ros_code/install" TYPE FILE FILES
+    "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/setup.sh"
+    "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace_beidou/install/setup.zsh;/workspace_beidou/install/local_setup.zsh")
+   "/home/fzy/cau_beidou_ros_code/install/setup.zsh;/home/fzy/cau_beidou_ros_code/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace_beidou/install" TYPE FILE FILES
-    "/workspace_beidou/build/catkin_generated/installspace/setup.zsh"
-    "/workspace_beidou/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/fzy/cau_beidou_ros_code/install" TYPE FILE FILES
+    "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/setup.zsh"
+    "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/workspace_beidou/install/.rosinstall")
+   "/home/fzy/cau_beidou_ros_code/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/workspace_beidou/install" TYPE FILE FILES "/workspace_beidou/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/fzy/cau_beidou_ros_code/install" TYPE FILE FILES "/home/fzy/cau_beidou_ros_code/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/workspace_beidou/build/gtest/cmake_install.cmake")
-  include("/workspace_beidou/build/locate/cmake_install.cmake")
-  include("/workspace_beidou/build/mqtt/cmake_install.cmake")
+  include("/home/fzy/cau_beidou_ros_code/build/gtest/cmake_install.cmake")
+  include("/home/fzy/cau_beidou_ros_code/build/locate/cmake_install.cmake")
+  include("/home/fzy/cau_beidou_ros_code/build/mqtt/cmake_install.cmake")
 
 endif()
 
@@ -144,5 +144,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspace_beidou/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fzy/cau_beidou_ros_code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /workspace_beidou/install/setup.sh
+    local-name: /home/fzy/cau_beidou_ros_code/install/setup.sh

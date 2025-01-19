@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/workspace_beidou/devel/share/roseus/ros/locate/manifest.l"
-  "/workspace_beidou/devel/share/roseus/ros/locate/msg/navigate_and_imu_data.l"
+  "/home/fzy/cau_beidou_ros_code/devel/share/roseus/ros/locate/manifest.l"
+  "/home/fzy/cau_beidou_ros_code/devel/share/roseus/ros/locate/msg/navigate_and_imu_data.l"
   "CMakeFiles/locate_generate_messages_eus"
 )
 

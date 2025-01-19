@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/workspace_beidou/devel/lib/locate/locate_node"
-  "/workspace_beidou/devel/lib/locate/locate_node.pdb"
+  "/home/fzy/cau_beidou_ros_code/devel/lib/locate/locate_node"
+  "/home/fzy/cau_beidou_ros_code/devel/lib/locate/locate_node.pdb"
   "CMakeFiles/locate_node.dir/src/locate_app.cpp.o"
 )
 

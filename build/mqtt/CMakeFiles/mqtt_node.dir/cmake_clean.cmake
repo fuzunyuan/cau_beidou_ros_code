@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/workspace_beidou/devel/lib/mqtt/mqtt_node"
-  "/workspace_beidou/devel/lib/mqtt/mqtt_node.pdb"
+  "/home/fzy/cau_beidou_ros_code/devel/lib/mqtt/mqtt_node"
+  "/home/fzy/cau_beidou_ros_code/devel/lib/mqtt/mqtt_node.pdb"
   "CMakeFiles/mqtt_node.dir/src/mqtt-app.cpp.o"
 )
 

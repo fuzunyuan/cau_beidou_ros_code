@@ -1,4 +1,4 @@
-prefix=/workspace_beidou/install
+prefix=/home/fzy/cau_beidou_ros_code/install
 
 Name: mqtt
 Description: Description of mqtt

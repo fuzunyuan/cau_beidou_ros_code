@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "mqtt"
-PROJECT_SPACE_DIR = "/workspace_beidou/devel"
+PROJECT_SPACE_DIR = "/home/fzy/cau_beidou_ros_code/devel"
 PROJECT_VERSION = "0.0.0"
